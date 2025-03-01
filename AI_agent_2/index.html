@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Healthcare Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>AI Healthcare Assistant</h1>
+
+    <!-- Symptom Checker -->
+    <div class="container">
+        <h2>Symptom Checker</h2>
+        <form id="symptom-form">
+            <label>Select Symptoms:</label><br>
+            <input type="checkbox" name="symptom" value="1"> Fever <br>
+            <input type="checkbox" name="symptom" value="1"> Cough <br>
+            <input type="checkbox" name="symptom" value="1"> Fatigue <br>
+            <input type="checkbox" name="symptom" value="1"> Headache <br>
+            <button type="submit">Check Disease</button>
+        </form>
+        <h3 id="prediction-result"></h3>
+    </div>
+
+    <!-- Chatbot -->
+    <div class="container">
+        <h2>Chat with AI</h2>
+        <input type="text" id="user-input" placeholder="Ask a health question...">
+        <button id="send-btn">Send</button>
+        <div id="chatbox"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

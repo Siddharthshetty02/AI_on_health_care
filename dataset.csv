@@ -1,0 +1,7 @@
+Fever,Cough,Fatigue,Headache,Sore Throat,Shortness of Breath,Disease
+1,1,1,0,1,0,Flu
+1,1,0,1,1,1,COVID-19
+0,1,1,1,0,1,Common Cold
+1,0,1,0,1,0,Migraine
+0,1,0,1,0,1,Asthma
+1,0,1,0,1,0,Dengue
